@@ -1,0 +1,14 @@
+Package: Caracteres
+Type: Package
+Title: Identificador de tipo de identificación y contador de caracteres del nombre.
+Version: 0.1.0
+Author: Juan Carlos Morera
+Maintainer: Juan Morera <correo@correo.com>
+Description: Contiene dos funciones: una que permite determinar si lalongitud de la identificación lo cataloga como una cédula o como 
+   un número interno a fin de ubicar el expediente por origen y otra que contabiliza el total de caracteres del nobmre dado que el 
+   espacio facilitado por el documento permite solo 15 caracteres y dos líneas y el digitador debe conocer de previo como acomoda el 
+   texto
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
